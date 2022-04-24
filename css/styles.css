@@ -22,3 +22,9 @@
   --herobtntext-color: #ffffff;
   --footadr-color: #ffffff99;
 }
+.logo-first {
+  color: var(--accent-color);
+}
+.logo {
+  color: var(--logo-color);
+}
