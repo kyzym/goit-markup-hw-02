@@ -15,12 +15,18 @@ body{
   font-family: Roboto;
   color: #757575;
   background-color: #fff;
-
+  
 }
+
+
 /* убираем точки со списков */
 ul
 {
   list-style: none;
+}
+
+a {
+   text-decoration: none;
 }
 
 /* обьявляем цвета */
@@ -95,4 +101,17 @@ color: var(--title-color)
 .hero-button {
   background-color: var(--accent-color);
   color: var(--hero-color);
+}
+.port-title
+{
+  color: var(--title-color);
+}
+.poster-sub
+{
+  color: var(--adr-color);
+}
+
+.site-nav .link.current
+{
+  color: var(--accent-color);
 }
