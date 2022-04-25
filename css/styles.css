@@ -26,14 +26,14 @@ ul
 /* обьявляем цвета */
 :root {
   --title-color: #212121;
-  --subtitle-color: #757575;
+  --adr-color: #757575;
   --logo-color: #000;
   --accent-color: #2196f3;
-  --btnnoact-color: #f5f4fa;
-  --footer-color: #2f303a;
-  --herobtntext-color: #fff;
-  --mailtel-color: color: rgba(255, 255, 255, 0.6);
-  --background-comand: #F5F4FA;
+  --bg-color: #2f303a;
+  --sub-color: #f5f4fa;
+  --hero-color: #fff;
+  --foot-sub-color: color: rgba(255, 255, 255, 0.6);
+    
 }
 .logo-acnt {
   color: var(--accent-color);
@@ -52,8 +52,47 @@ color: var(--title-color)
 
 /* site adr */
 .adress a {
-  color: var(--subtitle-color)
+  color: var(--adr-color)
 }
 .adress a:hover, .adress a:focus  {
   color: var(--accent-color);
+}
+/* features */
+.features-title {
+  color: var(--title-color)
+}
+
+/* section color */
+.section-title {
+  color: var(--title-color);
+}
+/* our command */
+.our-comand {
+  background-color: var(--sub-color);
+}
+
+.comand-name {
+  color: var(--title-color);
+}
+
+/* footer */
+.page-footer {
+  background-color: var(--bg-color);
+}
+.footer-adr {
+  color: var(--hero-color)
+}
+.mail-tel a {
+  color: var(--foot-sub-color);
+}
+
+.hero {
+  background-color: var(--bg-color);
+}
+.hero-title {
+  color: var(--hero-color);
+}
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--hero-color);
 }
