@@ -11,20 +11,49 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+body{
+  font-family: Roboto;
+  color: #757575;
+  background-color: #fff;
+
+}
+/* убираем точки со списков */
+ul
+{
+  list-style: none;
+}
+
 /* обьявляем цвета */
 :root {
   --title-color: #212121;
   --subtitle-color: #757575;
-  --logo-color: #000000;
+  --logo-color: #000;
   --accent-color: #2196f3;
   --btnnoact-color: #f5f4fa;
   --footer-color: #2f303a;
-  --herobtntext-color: #ffffff;
-  --footadr-color: #ffffff99;
+  --herobtntext-color: #fff;
+  --mailtel-color: color: rgba(255, 255, 255, 0.6);
+  --background-comand: #F5F4FA;
 }
-.logo-first {
+.logo-acnt {
   color: var(--accent-color);
 }
 .logo {
   color: var(--logo-color);
+}
+
+/* site nav */
+.site-nav a{
+color: var(--title-color)
+}
+.site-nav a:hover, .site-nav a:focus {
+  color: var(--accent-color);
+}
+
+/* site adr */
+.adress a {
+  color: var(--subtitle-color)
+}
+.adress a:hover, .adress a:focus  {
+  color: var(--accent-color);
 }
