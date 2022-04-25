@@ -46,16 +46,25 @@ a {
 .logo-acnt {
   color: var(--accent-color);
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+font-size: 26px;
+line-height: 1.1;
 }
 .logo {
   color: var(--logo-color);
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+font-size: 26px;
+line-height: 1.1;
 }
 
 /* site nav */
 .site-nav a{
 color: var(--title-color);
 letter-spacing: 0.02em;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
 }
 .site-nav a:hover, .site-nav a:focus {
   color: var(--accent-color);
@@ -65,6 +74,9 @@ letter-spacing: 0.02em;
 .adress a {
   color: var(--adr-color);
   letter-spacing: 0.02em;
+  font-weight: 500;
+font-size: 14px;
+line-height: 16px;
 }
 .adress a:hover, .adress a:focus  {
   color: var(--accent-color);
@@ -78,30 +90,62 @@ letter-spacing: 0.02em;
 .hero-title {
   color: var(--hero-color);
   letter-spacing: 0.06em;
+  font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+text-transform: uppercase;
 }
 .hero-button {
   background-color: var(--accent-color);
   color: var(--hero-color);
   letter-spacing: 0.06em;
+  font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+
+
+
 }
 
 /* features */
 .features-title {
   color: var(--title-color);
+ 
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
   
+}
+.features-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
 }
 
 /* section color */
 .section-title {
   color: var(--title-color);
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
 }
+
 /* our command */
 .our-comand {
   background-color: var(--sub-color);
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
 }
 
 .comand-name {
   color: var(--title-color);
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
 }
 
 /* footer */
@@ -110,19 +154,35 @@ letter-spacing: 0.02em;
 }
 .footer-adr {
   color: var(--hero-color);
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+font-style: normal;
+
 }
 .mail-tel a {
   color: var(--foot-sub-color);
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+
 }
 
 .port-title
 {
   color: var(--title-color);
   letter-spacing: 0.06em;
+  font-weight: 700;
+font-size: 18px;
+line-height: 2;
 }
 .poster-sub
 {
   color: var(--adr-color);
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
 }
 
 .site-nav .link.current
@@ -133,11 +193,19 @@ letter-spacing: 0.02em;
 .port-button {
   color: var(--title-color);
   background-color: var(--sub-color);
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+
   }
 
 .port-button:hover, .port-button:focus {
   color: var(--hero-color);
   background-color: var(--accent-color);
+}
+
+button {
+  font-family: inherit;
 }
 
 /* */
