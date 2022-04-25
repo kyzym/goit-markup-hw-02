@@ -15,6 +15,8 @@ body{
   font-family: Roboto;
   color: #757575;
   background-color: #fff;
+  font-family: 'Roboto', sans-serif; 
+  letter-spacing: 0.03em;
   
 }
 
@@ -43,14 +45,17 @@ a {
 }
 .logo-acnt {
   color: var(--accent-color);
+  font-family: 'Raleway', sans-serif;
 }
 .logo {
   color: var(--logo-color);
+  font-family: 'Raleway', sans-serif;
 }
 
 /* site nav */
 .site-nav a{
-color: var(--title-color)
+color: var(--title-color);
+letter-spacing: 0.02em;
 }
 .site-nav a:hover, .site-nav a:focus {
   color: var(--accent-color);
@@ -58,14 +63,32 @@ color: var(--title-color)
 
 /* site adr */
 .adress a {
-  color: var(--adr-color)
+  color: var(--adr-color);
+  letter-spacing: 0.02em;
 }
 .adress a:hover, .adress a:focus  {
   color: var(--accent-color);
 }
+
+/* hero */
+.hero {
+  background-color: var(--bg-color);
+  
+}
+.hero-title {
+  color: var(--hero-color);
+  letter-spacing: 0.06em;
+}
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--hero-color);
+  letter-spacing: 0.06em;
+}
+
 /* features */
 .features-title {
-  color: var(--title-color)
+  color: var(--title-color);
+  
 }
 
 /* section color */
@@ -86,25 +109,16 @@ color: var(--title-color)
   background-color: var(--bg-color);
 }
 .footer-adr {
-  color: var(--hero-color)
+  color: var(--hero-color);
 }
 .mail-tel a {
   color: var(--foot-sub-color);
 }
 
-.hero {
-  background-color: var(--bg-color);
-}
-.hero-title {
-  color: var(--hero-color);
-}
-.hero-button {
-  background-color: var(--accent-color);
-  color: var(--hero-color);
-}
 .port-title
 {
   color: var(--title-color);
+  letter-spacing: 0.06em;
 }
 .poster-sub
 {
@@ -125,3 +139,5 @@ color: var(--title-color)
   color: var(--hero-color);
   background-color: var(--accent-color);
 }
+
+/* */
