@@ -115,3 +115,13 @@ color: var(--title-color)
 {
   color: var(--accent-color);
 }
+
+.port-button {
+  color: var(--title-color);
+  background-color: var(--sub-color);
+  }
+
+.port-button:hover, .port-button:focus {
+  color: var(--hero-color);
+  background-color: var(--accent-color);
+}
